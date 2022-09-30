@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}index{% endblock %}
+{% block content %}
+<div style="height: 30%;"></div>
+<div class="mx-auto mt-5" style="width: 100%; max-width: 900px;">
+    <div class="container-fluid p-0 mb-2" style="text-align: center;">
+        <a href="/" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 text-forest"><i class="fa-brands fa-pagelines mr-2"></i>BizFLOA</h1>
+        </a>
+    </div>
+    {% include "search.html" %}
+</div>
+{% include "hash.html" %}
+{% endblock %}

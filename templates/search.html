@@ -1,0 +1,8 @@
+{% block content %} 
+    <form class="input-group" action = "/search">
+        <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="검색어를 입력하세요"id="keyword" name="keyword" value="{{keyword}}">
+        <div class="input-group-append"> 
+            <button class="btn btn-jungle px-4 px-lg-5" type="submit" action = "/search">검색</button>
+        </div>
+    </form>
+{% endblock %} 

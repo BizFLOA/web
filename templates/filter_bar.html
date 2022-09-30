@@ -1,0 +1,77 @@
+
+<div class="text-lg-left mb-2 mb-lg-0 p-0">
+    <nav class="navbar bg-white navbar-ivory py-3 px-lg-1">
+        <ul class="text m-0 p-0">
+            <form method ="post" active="bold" enctype="multipart/form-data"><li><input type= "text" name="filter" value="범위_전체" hidden> <button class="btn btn-white" href=""  action = "/search" type="submit">전체</button></li></form>
+            <form method ="post" active="bold" enctype="multipart/form-data"><li><input type= "text" name="filter" value="범위_수요기업" hidden> <button class="btn btn-white" href=""  action = "/search" type="submit">수요</button></li></form>
+            <form method ="post" active="bold" enctype="multipart/form-data"><li><input type= "text" name="filter" value="범위_공급기업" hidden> <button class="btn btn-white" href=""  action = "/search" type="submit">공급</button></li></form>
+
+        </ul>
+        <ul class="text m-0 p-0">            
+             <li style="display:inline !important">
+                <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="정렬_정확도순" hidden> <button class="btn btn-white btn-sm" href=""  action = "/search" type="submit">정확도순</button></form>
+                <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="정렬_최신순" hidden> <button class="btn btn-white btn-sm" href=""  action = "/search" type="submit">최신순</button></form>
+                <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="정렬_마감기간순" hidden> <button class="btn btn-white btn-sm" href=""  action = "/search" type="submit">마감기간순</button></form>
+                <button type="button" class="navbar-toggler collapsed" style="border-color: rgb(212, 212, 212);" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+                    <i class="fa-solid fa-bars" style="
+                    color: rgb(212, 212, 212); border-color: rgb(212, 212, 212);"></i>
+                </button>
+            </li>   
+        </ul>
+        <div class="navbar-collapse justify-content-between px-lg-3 collapse" id="navbarCollapse" style="">
+            <div class="mx-auto py-0">
+                <div class="btn-group nav-item nav-link">
+                    <label class="mr-2">지&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;역</label>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_전체" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">전체</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_서울" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">서울</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_부산" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">부산</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_인천" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">인천</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_대구" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">대구</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_대전" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">대전</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_광주" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">광주</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_울산" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">울산</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_세종" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">세종</button></form>
+                    </div>
+                <div class="btn-group nav-item nav-link">
+                    <label class="mr-2" sytle="width: 64px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_경기" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">경기</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_강원" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">강원</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_충북" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">충북</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_충남" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">충남</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_전북" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">전북</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_전남" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">전남</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_경북" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">경북</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_경남" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">경남</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지역_제주" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">제주</button></form>
+                </div>
+                <div class="btn-group nav-item nav-link">
+                    <label class="mr-2">지원분야</label>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_전체" hidden><button href="#" class="btn btn-banana btn-sm" aria-current="page" action = "/search" type="submit">전체</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_금융" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">금융</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_기술" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">기술</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_인력" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">인력</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_수출" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">수출</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_내수" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">내수</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_창업" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">창업</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_경영" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">경영</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="지원분야_기타" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">기타</button></form>
+                </div>
+                <div class="btn-group nav-item nav-link">
+                    <label class="mr-2">접수현황</label>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="접수현황_전체" hidden><button href="#" class="btn btn-banana btn-sm" aria-current="page" action = "/search" type="submit">전체</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="접수현황_접수대기" hidden><button href="#" class="btn btn-banana btn-sm" aria-current="page" action = "/search" type="submit">접수대기</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="접수현황_접수중" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">접수중</button></form>
+                    <form method ="post" active="bold" enctype="multipart/form-data"><input type= "text" name="filter" value="접수현황_접수마감" hidden><button href="#" class="btn btn-banana btn-sm" action = "/search" type="submit">접수마감</button></form>
+                </div>
+                <div class="btn-group nav-item nav-link">
+                    <form method="post" active="bold" enctype="multipart/form-data">
+                        <label class="mr-2">접수기간</label>
+                        <input type="text" id="demo" name="filter" value="">
+                        <button class="btn btn-search" type="submit" action = "/search">검색</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
